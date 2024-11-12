@@ -1,0 +1,117 @@
+
+body {
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    margin: 0;
+}
+
+
+
+#heroCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 5px;
+  
+}
+
+.fotoHeroi {
+    position: relative;
+    width: 100%;
+    height: 250px; 
+   
+}
+
+.fotoHeroi img {
+    width: 60%;
+    height: auto;
+    object-fit: cover; /* Para que a imagem cubra todo o espaço sem distorção */
+    transition: transform 0.3s ease; /* Transição suave no zoom */
+}
+
+.fotoHeroi img:hover{
+    transform: scale(1.2); /* Zoom da imagem */
+} 
+
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.scriptText {
+    font-size: 16px;
+}
+
+#xpAccent {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+#classAccent {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 15px;
+}

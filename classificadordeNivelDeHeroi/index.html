@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador De Nivel de Herói</title>
+    <link rel="shortcut icon" href="img/heroifav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
+<body>
+    
+    <div id="heroCard">
+        <h2> ⚔️Qual o Nível do Seu Herói?</h2>
+        <div class="fotoHeroi">
+            <img src="img/pngegg.png" alt="Foto do Herói">
+        </div>
+        <p>Nome do Herói:</p>
+        <input id="idName" value="John Doe" type="text">
+
+        <p>Quantidade de XP:</p>
+        <input id="quantXp" value="10001" type="text">
+
+        <p>Nível:</p>
+        <p id="result">Clique no botão abaixo e descubra qual o nível do seu Herói!</p>
+
+        <button onclick="calcularNivel()">Clique Aqui!</button>
+        <div id="espaco"></div>
+
+      
+    </div>
+   
+
+    <footer>
+        <p>&copy; <span id="year"></span> mgg_code. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            
+            <a href="https://br.linkedin.com/in/marta-geraldo" target="_blank" title="linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://codepen.io/martageraldo" target="_blank" title="Codepen"><i class="fab fa-codepen"></i></a>
+            <a href="https://github.com/mggcode" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
